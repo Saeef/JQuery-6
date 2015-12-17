@@ -11,3 +11,11 @@ remove(): removes elements from the page, including any embedded data and event 
 detach(): removes elements from the page, but maintains embedded data and event handlers
 replaceAll(): replaces the matched elements with the specified content
 replaceWith(): replaces matched elements with content or the results of a callback function
+
+Manipulating Attributes
+To read or change element attributes, use the attr() function. removeAttr() can be used to remove attributes
+
+attr(): get the value of an attribute
+attr(name, val): set the name attribute to val
+attr({ name: val ... }): set multiple attributes in one call
+removeAttr(name): remove the attribute from the element
