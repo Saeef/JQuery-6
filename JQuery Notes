@@ -19,3 +19,13 @@ attr(): get the value of an attribute
 attr(name, val): set the name attribute to val
 attr({ name: val ... }): set multiple attributes in one call
 removeAttr(name): remove the attribute from the element
+
+CSS Properties and Class Manipulation
+Getting and setting CSS information is accomplished via a set of dedicated jQuery functions.
+
+In addition to setting and retrieving individual CSS properties, there are methods for easily changing the CSS classes assigned to page elements that work in a cross-browser manner.
+
+css(): get or set CSS properties on the matched elements in a variety of ways
+hasClass(className): determine whether a page element has a certain class
+addClass(className | function): add the given CSS class to the elements in the matched set
+removeClass(className | function): remove the given CSS class from the elements in the matched set
