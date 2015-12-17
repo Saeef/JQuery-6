@@ -1,0 +1,13 @@
+JQuery Notes
+
+Selectors are used to select content and Filtersa are used to further refine the selected content.
+
+Altering Document Content
+wrap(): wrap the matched elements with the specified content
+wrapAll(): wrap content around the matched elements as a group
+unWrap(): remove the parents from the matched elements
+empty(): remove all the child elements from the matched elements
+remove(): removes elements from the page, including any embedded data and event handlers
+detach(): removes elements from the page, but maintains embedded data and event handlers
+replaceAll(): replaces the matched elements with the specified content
+replaceWith(): replaces matched elements with content or the results of a callback function
