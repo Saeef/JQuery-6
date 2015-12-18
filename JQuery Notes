@@ -47,3 +47,10 @@ hover(): use this instead of mouseover and mouseleave events
 click(): listens for click events
 dblclick(): listens for double-click events
 resize(): fired on the window object when the browser window resizes
+
+Using the show and hide effects
+The show() and hide() functions are the simplest way to reveal and hide elements. This can be done with an optional animation.
+
+show(): Reveals the matched elements using an optional animation
+hide(): Hides the matched elements using an optional animation
+toggle(): Toggles the visible state of the matched elements using an optional animation
