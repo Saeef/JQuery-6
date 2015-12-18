@@ -1,6 +1,6 @@
 JQuery Notes
 
-Selectors are used to select content and Filtersa are used to further refine the selected content.
+Selectors are used to select content and Filters are used to further refine the selected content.
 
 Altering Document Content
 wrap(): wrap the matched elements with the specified content
@@ -14,7 +14,6 @@ replaceWith(): replaces matched elements with content or the results of a callba
 
 Manipulating Attributes
 To read or change element attributes, use the attr() function. removeAttr() can be used to remove attributes
-
 attr(): get the value of an attribute
 attr(name, val): set the name attribute to val
 attr({ name: val ... }): set multiple attributes in one call
@@ -32,10 +31,19 @@ removeClass(className | function): remove the given CSS class from the elements 
 
 Using jQuery CSS Functions
 
-CSS has historically been one of the areas of big differences between browsers. jQuery provides a set of cross-browser functions for working with CSS values that commonly appear in development situations.
-
+CSS has historically been one of the areas of big differences between browsers. 
+jQuery provides a set of cross-browser functions for working with CSS values that commonly appear in development situations.
 width() and height(): get or set the width/height of an element
 innerWidth() and innerHeight(): get or set the inner width/height of an element
 outerWidth() and outerHeight(): get the outer width/height of an element
 offset(): get coordinates of element relative to the document
 position(): get coordinates of element relative to the offset parent
+
+Using Event Helpers
+
+Some types of events are fairly common, and jQuery provides shorthand helper functions to make your code a little easier to write and read. Some examples:
+
+hover(): use this instead of mouseover and mouseleave events
+click(): listens for click events
+dblclick(): listens for double-click events
+resize(): fired on the window object when the browser window resizes
