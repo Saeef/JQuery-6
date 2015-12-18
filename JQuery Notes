@@ -54,3 +54,11 @@ The show() and hide() functions are the simplest way to reveal and hide elements
 show(): Reveals the matched elements using an optional animation
 hide(): Hides the matched elements using an optional animation
 toggle(): Toggles the visible state of the matched elements using an optional animation
+
+Element Fading Routines
+
+Page elements can be faded in or out using a set of dedicated jQuery functions.
+
+fadeIn() fades the element in from being invisible
+fadeOut() fades the element out and removes it from layout
+fadeTo() fades the element to a specified opacity
