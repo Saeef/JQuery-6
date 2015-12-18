@@ -55,6 +55,8 @@ show(): Reveals the matched elements using an optional animation
 hide(): Hides the matched elements using an optional animation
 toggle(): Toggles the visible state of the matched elements using an optional animation
 
+
+
 Element Fading Routines
 
 Page elements can be faded in or out using a set of dedicated jQuery functions.
@@ -62,3 +64,13 @@ Page elements can be faded in or out using a set of dedicated jQuery functions.
 fadeIn() fades the element in from being invisible
 fadeOut() fades the element out and removes it from layout
 fadeTo() fades the element to a specified opacity
+
+
+
+Using the slide functions
+
+Elements can also be shown and revealed via the slide functions. A common use case for this feature is when, for example, you have a message to display to the user that can be dismissed once read.
+
+slideUp(): animates the height of the matched elements to 0 (or whatever CSS min-height is set to). When the animation finishes, the display CSS property of the element is set to 'none' to remove the element from the page layout
+slideDown(): animates the height of the matched elements to reveal them
+slideToggle(): toggles the state of the matched elements, either sliding them up or down depending on their current state
