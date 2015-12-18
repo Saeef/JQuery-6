@@ -82,3 +82,8 @@ Animating an Element's Properties
 The animate() function provides a way to create smooth animations on the properties of an object.
 
 Click the buttons below this <div> element to see how various properties can be animated.
+
+
+Using the basic Ajax function
+
+The $.ajax() function is used to perform basic AJAX requests. It can be customized using a variety of parameters.
