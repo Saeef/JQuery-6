@@ -1,5 +1,23 @@
 JQuery Notes
 
+
+$ Function tells the code when to run
+Capitalization is crucial in JavaScript
+
+HTML code - Location of Script tags.
+The first <script> tag needs to load the jQuery library. 
+The second <script> tag loads our JavaScript program. 
+Both <script> tags are located right before the closing <body> tag.
+
+
+ //$("#third").css("background-color","red")
+ To identify ID's use the # followed by the id name.
+ To identify a class, use a "." followed by the class name.
+ Do not include this in quotation marks as a selector
+
+
+
+
 Selectors are used to select content and Filters are used to further refine the selected content.
 
 Altering Document Content
@@ -94,3 +112,11 @@ The Ajax Helper Functions
 It turns out that certain scenarios, such as retrieving data via AJAX and then inserting the returned content into an element on the page, are pretty common in Web development.
 
 jQuery provides a set of helper functions that make these scenarios easier.
+
+
+Ajax Working With Different Data Types
+
+Using AJAX, it is possible to retrieve and work with different types of data. In this example, we will write jQuery code to work with JSON and XML data.
+
+For the XML, we'll use a local file that contains a simple XML structure.
+For the JSON example we'll use the public Flickr API to retrieve images that match a set of parameters.
